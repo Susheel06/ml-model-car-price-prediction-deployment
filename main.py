@@ -6,7 +6,7 @@ import sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 
-df = pd.read_csv(r'E:\untitled2\datasets_33080_43333_car data.csv')
+df = pd.read_csv(r'E:\untitled2\car_data.csv')
 df.insert(1, value=2020 - df['Year'], column='no_year')
 df.drop(['Year', 'Car_Name'], axis=1, inplace=True)
 
