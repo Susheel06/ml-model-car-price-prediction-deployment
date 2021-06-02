@@ -13,7 +13,7 @@ requests==2.23.0
 scikit-learn==0.23.1
 scipy==1.4.1
 threadpoolctl==2.1.0
-urllib3==1.25.8
+urllib3==1.26.5
 Werkzeug==1.0.1
 wincertstore==0.2
 gunicorn
